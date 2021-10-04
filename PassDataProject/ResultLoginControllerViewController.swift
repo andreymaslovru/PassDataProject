@@ -12,15 +12,11 @@ class ResultLoginControllerViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
 
+    @IBAction func goBack(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLabel.text = login
     }
-    
-    
-    
-    
-    
-
-
 }
